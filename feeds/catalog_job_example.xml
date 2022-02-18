@@ -8,7 +8,7 @@
        <company_name datatype="string"><![CDATA[Microsoft]]></company_name>
        <company_id datatype="string"><![CDATA[some_company_identifier]]></company_id>
        <job_type><![CDATA[PART_TIME]]></job_type>
-       <company_facebook_url datatype="string"><![CDATA[https://www.facebook.com/JobsTeam/]]></company_facebook_url>
+       <company_facebook_url datatype="string"><![CDATA[https://www.facebook.com/Coding-for-Fun-106378727771256/]]></company_facebook_url>
        <company_url><![CDATA[https://www.companywebsite.com/]]></company_url>
        <company_data_policy_url><![CDATA[https://www.humanresources.com/]]></company_data_policy_url>
        <company_full_address datatype="string"><![CDATA[1 Hacker Way, Menlo Park, CA 94025 US]]></company_full_address>
