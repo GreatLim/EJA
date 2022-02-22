@@ -5,7 +5,7 @@
        <title datatype="string"><![CDATA[CEO]]></title>
        <id datatype="string"><![CDATA[test_job_id]]></id>
        <description datatype="string"><![CDATA[Jobs team is hiring!]]></description>
-       <company_name datatype="string"><![CDATA[Microsoft]]></company_name>
+       <company_name datatype="string"><![CDATA[Meta Knight]]></company_name>
        <company_id datatype="string"><![CDATA[some_company_identifier]]></company_id>
        <job_type><![CDATA[PART_TIME]]></job_type>
        <company_facebook_url datatype="string"><![CDATA[https://www.facebook.com/Coding-for-Fun-106378727771256/]]></company_facebook_url>
