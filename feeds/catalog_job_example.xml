@@ -1,19 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <listings>
- <title>Test feed title</title>
+    <title>Test feed title</title>
     <listing>
-       <title datatype="string"><![CDATA[CEO]]></title>
-       <id datatype="string"><![CDATA[test_job_id]]></id>
-       <description datatype="string"><![CDATA[Jobs team is hiring!]]></description>
-       <company_name datatype="string"><![CDATA[Meta Knight]]></company_name>
-       <company_id datatype="string"><![CDATA[some_company_identifier]]></company_id>
-       <job_type><![CDATA[PART_TIME]]></job_type>
-       <company_facebook_url datatype="string"><![CDATA[https://www.facebook.com/Coding-for-Fun-106378727771256/]]></company_facebook_url>
-       <company_url><![CDATA[https://www.companywebsite.com/]]></company_url>
-       <company_data_policy_url><![CDATA[https://www.humanresources.com/]]></company_data_policy_url>
-       <company_full_address datatype="string"><![CDATA[1 Hacker Way, Menlo Park, CA 94025 US]]></company_full_address>
-       <remote_type dadtatype="string"><![CDATA[WFH_FLEXIBLE]]></remote_type>
-       <address format="simple">
+        <title datatype="string">
+            <![CDATA[CEO]]>
+        </title>
+        <id datatype="string">
+            <![CDATA[test_job_id_ceo]]>
+        </id>
+        <description datatype="string">
+            <![CDATA[Jobs team is hiring CEO!]]>
+        </description>
+        <company_name datatype="string">
+            <![CDATA[Meta Knight]]>
+        </company_name>
+        <company_id datatype="string">
+            <![CDATA[some_company_identifier]]>
+        </company_id>
+        <job_type>
+            <![CDATA[PART_TIME]]>
+        </job_type>
+        <company_facebook_url datatype="string">
+            <![CDATA[https://www.facebook.com/Coding-for-Fun-106378727771256/]]>
+        </company_facebook_url>
+        <company_url>
+            <![CDATA[https://www.companywebsite.com/]]>
+        </company_url>
+        <company_data_policy_url>
+            <![CDATA[https://www.humanresources.com/]]>
+        </company_data_policy_url>
+        <company_full_address datatype="string">
+            <![CDATA[1 Hacker Way, Menlo Park, CA 94025 US]]>
+        </company_full_address>
+        <remote_type dadtatype="string">
+            <![CDATA[WFH_FLEXIBLE]]>
+        </remote_type>
+        <address format="simple">
             <component name="addr1">1 Hacker Way</component>
             <component name="city">Menlo Park</component>
             <component name="region">CA</component>
@@ -21,10 +43,18 @@
             <component name="country">US</component>
         </address>
         <!-- alternatively use just the <salary> tag -->
-        <salary_min><![CDATA[20]]></salary_min>
-        <salary_max><![CDATA[30]]></salary_max>
-        <salary_currency><![CDATA[USD]]></salary_currency>
-        <salary_type><![CDATA[HOURLY]]></salary_type>
+        <salary_min>
+            <![CDATA[20]]>
+        </salary_min>
+        <salary_max>
+            <![CDATA[30]]>
+        </salary_max>
+        <salary_currency>
+            <![CDATA[USD]]>
+        </salary_currency>
+        <salary_type>
+            <![CDATA[HOURLY]]>
+        </salary_type>
         <facebook_apply_data>
             <application_callback_url>
                 <![CDATA[https://yourdomain.com/callback]]>
@@ -69,7 +99,114 @@
             <latitude>52.3</latitude>
             <longitude>4.8</longitude>
         </availability_polygon_coordinates>
-        <image><url><![CDATA[https://raw.githubusercontent.com/GreatLim/EJA/main/images/grubhub_logo.png]]></url></image>
-
- </listing>
+        <image>
+            <url>
+                <![CDATA[https://raw.githubusercontent.com/GreatLim/EJA/main/images/grubhub_logo.png]]>
+            </url>
+        </image>
+    </listing>
+    <listing>
+        <title datatype="string">
+            <![CDATA[CFO]]>
+        </title>
+        <id datatype="string">
+            <![CDATA[test_job_id_cfo]]>
+        </id>
+        <description datatype="string">
+            <![CDATA[Jobs team is hiring CFO!]]>
+        </description>
+        <company_name datatype="string">
+            <![CDATA[Meta Knight]]>
+        </company_name>
+        <company_id datatype="string">
+            <![CDATA[some_company_identifier]]>
+        </company_id>
+        <job_type>
+            <![CDATA[PART_TIME]]>
+        </job_type>
+        <company_facebook_url datatype="string">
+            <![CDATA[https://www.facebook.com/Coding-for-Fun-106378727771256/]]>
+        </company_facebook_url>
+        <company_url>
+            <![CDATA[https://www.companywebsite.com/]]>
+        </company_url>
+        <company_data_policy_url>
+            <![CDATA[https://www.humanresources.com/]]>
+        </company_data_policy_url>
+        <company_full_address datatype="string">
+            <![CDATA[1 Hacker Way, Menlo Park, CA 94025 US]]>
+        </company_full_address>
+        <remote_type dadtatype="string">
+            <![CDATA[WFH_FLEXIBLE]]>
+        </remote_type>
+        <address format="simple">
+            <component name="addr1">1 Hacker Way</component>
+            <component name="city">Menlo Park</component>
+            <component name="region">CA</component>
+            <component name="postal_code">94025</component>
+            <component name="country">US</component>
+        </address>
+        <!-- alternatively use just the <salary> tag -->
+        <salary_min>
+            <![CDATA[20]]>
+        </salary_min>
+        <salary_max>
+            <![CDATA[30]]>
+        </salary_max>
+        <salary_currency>
+            <![CDATA[USD]]>
+        </salary_currency>
+        <salary_type>
+            <![CDATA[HOURLY]]>
+        </salary_type>
+        <facebook_apply_data>
+            <application_callback_url>
+                <![CDATA[https://yourdomain.com/callback]]>
+            </application_callback_url>
+            <custom_questions_url>
+                <![CDATA[https://yourdomain.com/custom_questions]]>
+            </custom_questions_url>
+            <offsite_application_url>
+                <![CDATA[https://yourdomain.com/job]]>
+            </offsite_application_url>
+            <application_flow>
+                <![CDATA[NATIVE]]>
+            </application_flow>
+            <form_config>
+                <email_field>
+                    <optional>FALSE</optional>
+                </email_field>
+                <phone_number_field>
+                    <optional>FALSE</optional>
+                </phone_number_field>
+                <work_experience_field>
+                    <optional>FALSE</optional>
+                </work_experience_field>
+                <resume_attachment_field>
+                    <optional>TRUE</optional>
+                </resume_attachment_field>
+            </form_config>
+        </facebook_apply_data>
+        <availability_polygon_coordinates>
+            <latitude>52.3</latitude>
+            <longitude>4.8</longitude>
+        </availability_polygon_coordinates>
+        <availability_polygon_coordinates>
+            <latitude>52.4</latitude>
+            <longitude>4.8</longitude>
+        </availability_polygon_coordinates>
+        <availability_polygon_coordinates>
+            <latitude>52.4</latitude>
+            <longitude>4.9</longitude>
+        </availability_polygon_coordinates>
+        <availability_polygon_coordinates>
+            <latitude>52.3</latitude>
+            <longitude>4.8</longitude>
+        </availability_polygon_coordinates>
+        <image>
+            <url>
+                <![CDATA[https://raw.githubusercontent.com/GreatLim/EJA/main/images/logo.png]]>
+            </url>
+        </image>
+    </listing>
 </listings>
